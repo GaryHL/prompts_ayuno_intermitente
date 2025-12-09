@@ -1,0 +1,357 @@
+[
+  {
+    "recipe_id": "RA-001",
+    "title": "Tostada Mañanera de Huevo y Atún",
+    "description": "Una opción súper rápida y económica para romper tu ayuno. Combina proteína magra y carbohidratos de calidad para recargar energía sin picos de azúcar.",
+    "preparation_time_mins": 10,
+    "servings": 1,
+    "core_tags": ["romper_ayuno"],
+    "tags": ["bajo_costo", "alto_en_proteina", "menos_de_15_minutos"],
+    "expert_comment": "Esta receta es perfecta para la ruptura del ayuno ya que el alto contenido de proteína y la fibra del pan integral ayudan a estabilizar el azúcar en sangre. Esto minimiza el riesgo de antojos posteriores y te mantiene saciado por más tiempo, clave para el éxito en el déficit.",
+    "image_url": "https://i.imgur.com/0Tap8dY.png",
+    "ingredients": [
+      {
+        "name": "Pan integral (rebanada)",
+        "quantity": 1,
+        "unit": "unidad",
+        "category": "carbohidratos",
+        "is_optional": false
+      },
+      {
+        "name": "Huevo",
+        "quantity": 1,
+        "unit": "unidad",
+        "category": "proteínas",
+        "is_optional": false
+      },
+      {
+        "name": "Atún en agua (escurrido)",
+        "quantity": 50,
+        "unit": "gramos",
+        "category": "proteínas",
+        "is_optional": false
+      },
+      {
+        "name": "Aguacate (en rodajas)",
+        "quantity": 0.25,
+        "unit": "unidad",
+        "category": "grasas",
+        "is_optional": false
+      },
+      {
+        "name": "Pimienta Negra",
+        "quantity": 1,
+        "unit": "pizca",
+        "category": "especias",
+        "is_optional": true
+      }
+    ],
+    "instructions": [
+      "Tostar el pan integral hasta que esté crujiente.",
+      "Mientras se tuesta, cocinar el huevo (a la plancha o revuelto) en una sartén con muy poco aceite o mantequilla (opcional).",
+      "En un tazón, mezclar el atún escurrido con una pizca de pimienta.",
+      "Untar el aguacate sobre el pan tostado.",
+      "Colocar la mezcla de atún sobre el aguacate y el huevo cocido encima.",
+      "Servir inmediatamente. ¡Tu ayuno ha sido roto de forma inteligente y deliciosa!"
+    ],
+    "nutritional_summary": {
+      "calories": 300,
+      "protein_g": 28,
+      "fat_g": 14,
+      "carbs_g": 15
+    }
+  },
+  {
+    "recipe_id": "RA-002",
+    "title": "Omelette 'Power' de Espinacas y Queso Cottage",
+    "description": "Una forma deliciosa y súper nutritiva de darle la bienvenida a tu cuerpo tras el ayuno. Este omelette es suave, lleno de proteínas de alta calidad y vegetales que te harán sentir con energía limpia y sin pesadez.",
+    "preparation_time_mins": 15,
+    "servings": 1,
+    "core_tags": ["romper_ayuno"],
+    "tags": ["alto_en_proteina", "sin_gluten", "costo_moderado"],
+    "expert_comment": "¡Felicidades por completar tu ayuno! Esta es la comida perfecta para empezar. La combinación de huevo y queso cottage te proporciona una dosis fuerte y sostenida de proteína (¡más de 25g!) crucial para proteger y construir músculo. Sentirás una satisfacción inmediata y duradera, evitando el 'pico y bajada' de azúcar. Las espinacas añaden fibra y vitaminas que facilitan la digestión y te dan esa 'chispa' de nutrientes.",
+    "image_url": "https://interly.ai/images/omelette_power_spinach.jpg",
+    "ingredients": [
+      {
+        "name": "Huevos grandes",
+        "quantity": 3,
+        "unit": "unidad",
+        "category": "proteina",
+        "is_optional": false
+      },
+      {
+        "name": "Queso cottage (bajo en grasa)",
+        "quantity": 50,
+        "unit": "gramos",
+        "category": "lacteos",
+        "is_optional": false
+      },
+      {
+        "name": "Espinacas frescas",
+        "quantity": 1,
+        "unit": "taza",
+        "category": "vegetales",
+        "is_optional": false
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": 1,
+        "unit": "cucharadita",
+        "category": "grasa",
+        "is_optional": false
+      },
+      {
+        "name": "Sal y pimienta negra",
+        "quantity": 1,
+        "unit": "pizca",
+        "category": "sazon",
+        "is_optional": true
+      },
+      {
+        "name": "Tomate cherry",
+        "quantity": 5,
+        "unit": "unidad",
+        "category": "vegetales",
+        "is_optional": true
+      }
+    ],
+    "instructions": [
+      "En un bol pequeño, bate los 3 huevos vigorosamente. Sazona con sal y pimienta al gusto.",
+      "Lava y pica las espinacas frescas. Si usas tomate cherry, córtalos por la mitad.",
+      "Calienta una sartén antiadherente a fuego medio. Añade la cucharadita de aceite de oliva.",
+      "Una vez caliente, vierte la mezcla de huevo y distribuye uniformemente por la sartén, como si fuera una tortilla delgada.",
+      "Cuando los bordes empiecen a cuajarse (unos 2 minutos), esparce las espinacas picadas y el queso cottage por la mitad del omelette. Si usas, añade también los trozos de tomate.",
+      "Cocina por 1-2 minutos más. La clave es que el centro esté casi cuajado, pero suave.",
+      "Con una espátula, dobla cuidadosamente el omelette por la mitad. Desliza a un plato y sirve inmediatamente. ¡Disfruta de tu primer bocado nutritivo!"
+    ],
+    "nutritional_summary": {
+      "calories": 350,
+      "protein_g": 32,
+      "fat_g": 20,
+      "carbs_g": 6
+    }
+  },
+  {
+    "recipe_id": "RA-003",
+    "title": "Tazón Reconstructor de Yogur Griego y Nueces",
+    "description": "Un tazón denso en nutrientes con proteína de alta calidad y grasas saludables. Ideal para reintroducir alimentos después del ayuno de forma suave, promoviendo una saciedad duradera y energía estable.",
+    "preparation_time_mins": 5,
+    "servings": 1,
+    "core_tags": ["romper_ayuno"],
+    "tags": [
+      "alto_en_proteina",
+      "bajo_en_carbohidratos",
+      "menos_de_15_minutos",
+      "costo_moderado"
+    ],
+    "expert_comment": "Romper el ayuno con una base proteica como el yogur griego natural, sin azúcares añadidos, favorece una digestión progresiva y ayuda a estabilizar el azúcar en la sangre. La combinación con nueces y una pequeña porción de chía aporta grasas y fibra suave que suelen generar buena saciedad sin pesadez. Si lo deseas, puedes remojar la chía unos minutos antes de usarla; esto vuelve su textura más suave y puede mejorar la tolerancia digestiva en personas sensibles.",
+    "ingredients": [
+      {
+        "name": "Yogur griego natural, sin azúcar añadido",
+        "quantity": 200,
+        "unit": "g",
+        "category": "Lácteos/Proteína",
+        "is_optional": false
+      },
+      {
+        "name": "Proteína de suero de leche (whey) sabor vainilla o natural",
+        "quantity": 15,
+        "unit": "g",
+        "category": "Suplemento",
+        "is_optional": true
+      },
+      {
+        "name": "Nueces (troceadas)",
+        "quantity": 15,
+        "unit": "g",
+        "category": "Grasas/Semillas",
+        "is_optional": false
+      },
+      {
+        "name": "Semillas de chía",
+        "quantity": 5,
+        "unit": "g",
+        "category": "Grasas/Semillas",
+        "is_optional": false
+      },
+      {
+        "name": "Arándanos (frescos o congelados)",
+        "quantity": 30,
+        "unit": "g",
+        "category": "Fruta",
+        "is_optional": false
+      },
+      {
+        "name": "Miel de maple o Stevia (opcional para endulzar)",
+        "quantity": 5,
+        "unit": "ml",
+        "category": "Endulzante",
+        "is_optional": true
+      }
+    ],
+    "instructions": [
+      "En un tazón pequeño, coloca los 200 g de yogur griego.",
+      "Si usas la proteína en polvo (opcional), incorpórala al yogur y mezcla bien hasta que esté completamente disuelta y la mezcla sea homogénea. Esto aumentará significativamente el contenido proteico.",
+      "Esparce por encima las nueces troceadas y las semillas de chía.",
+      "Agrega los arándanos para un toque de antioxidantes y fibra muy suave.",
+      "Si lo deseas, añade una pequeña cantidad de miel de maple o el endulzante de tu preferencia.",
+      "Consume lentamente, disfrutando la textura y la sensación de saciedad."
+    ],
+    "nutritional_summary": {
+      "calories": 370,
+      "protein_g": 35,
+      "fat_g": 20,
+      "carbs_g": 13
+    }
+  },
+  {
+    "recipe_id": "RA-004",
+    "title": "Hotcakes Suaves de Requesón y Vainilla",
+    "description": "Unas tortitas ligeras y esponjosas que combinan la cremosidad del requesón con el huevo. Son perfectas para retomar la ingesta de alimentos gracias a su textura amable y su excelente perfil proteico.",
+    "preparation_time_mins": 12,
+    "servings": 1,
+    "core_tags": ["romper_ayuno"],
+    "tags": [
+      "bajo_costo",
+      "alto_en_proteina",
+      "vegetariano",
+      "sin_gluten",
+      "menos_de_15_minutos"
+    ],
+    "expert_comment": "Esta es una de mis opciones favoritas para iniciar la ventana de alimentación. Al usar requesón (queso cottage) como base, obtenemos una liberación de aminoácidos constante que te ayudará a sentir saciedad tranquila sin inflamar. Es una preparación noble con el estómago y evita esa sensación de pesadez que a veces ocurre al comer carbohidratos densos de golpe.",
+    "image_url": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&q=80",
+    "ingredients": [
+      {
+        "name": "Queso Cottage o Requesón (bajo en grasa)",
+        "quantity": 120,
+        "unit": "g",
+        "category": "Lácteos",
+        "is_optional": false
+      },
+      {
+        "name": "Huevos grandes",
+        "quantity": 2,
+        "unit": "unidades",
+        "category": "Proteína",
+        "is_optional": false
+      },
+      {
+        "name": "Avena en hojuelas (o harina de avena)",
+        "quantity": 20,
+        "unit": "g",
+        "category": "Cereales",
+        "is_optional": false
+      },
+      {
+        "name": "Extracto de vainilla natural",
+        "quantity": 0.5,
+        "unit": "cdita",
+        "category": "Condimentos",
+        "is_optional": false
+      },
+      {
+        "name": "Canela en polvo",
+        "quantity": 1,
+        "unit": "pizca",
+        "category": "Condimentos",
+        "is_optional": true
+      },
+      {
+        "name": "Aceite de coco o mantequilla (para engrasar)",
+        "quantity": 5,
+        "unit": "g",
+        "category": "Grasas",
+        "is_optional": false
+      }
+    ],
+    "instructions": [
+      "En un bowl pequeño o licuadora, mezcla los huevos, el queso cottage (o requesón), la avena, la vainilla y la canela.",
+      "Si usas licuadora, procesa solo unos segundos para integrar sin licuar completamente si prefieres sentir un poco de textura; si prefieres masa lisa, licúa bien.",
+      "Calienta una sartén antiadherente a fuego medio y agrega la pequeña cantidad de aceite o mantequilla.",
+      "Vierte porciones de la mezcla para formar 2 o 3 hotcakes medianos. Cocina por unos 2-3 minutos hasta que veas burbujas en la superficie.",
+      "Voltea con cuidado (son más frágiles que los de harina normal) y cocina 1 minuto más del otro lado hasta que doren ligeramente.",
+      "Sirve inmediatamente. Puedes acompañar opcionalmente con un poco de yogur griego extra o unas pocas fresas (no incluidas en macros base)."
+    ],
+    "nutritional_summary": {
+      "calories": 345,
+      "protein_g": 28,
+      "fat_g": 16,
+      "carbs_g": 18
+    }
+  },
+  {
+    "recipe_id": "RA-005",
+    "title": "Pechuga Dorada con Champiñones",
+    "description": "Una preparación caliente que reconforta sin caer pesado. El dorado del pollo aporta una saciedad agradable, mientras que los champiñones aportan una textura suave que tu estómago agradece al romper el ayuno. Ideal si quieres volver a comer sin sentir inflamación ni hinchazón.",
+    "preparation_time_mins": 15,
+    "servings": 1,
+    "core_tags": ["romper_ayuno"],
+    "tags": [
+      "alto_en_proteina",
+      "sin_gluten",
+      "bajo_en_carbohidratos",
+      "bajo_costo",
+      "menos_de_15_minutos"
+    ],
+    "expert_comment": "Este plato entrega proteína que sacia sin inflamar y combina con vegetales cocidos, más gentiles para el estómago después de varias horas sin comer. Mantiene la glucosa estable y evita esa sensación incómoda de pesadez típica de los primeros alimentos del día.",
+    "image_url": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=800&q=80",
+    "ingredients": [
+      {
+        "name": "Pechuga de pollo (sin piel)",
+        "quantity": 120,
+        "unit": "g",
+        "category": "Proteína",
+        "is_optional": false
+      },
+      {
+        "name": "Champiñones rebanados",
+        "quantity": 100,
+        "unit": "g",
+        "category": "Verduras",
+        "is_optional": false
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": 1,
+        "unit": "cdita",
+        "category": "Aceites",
+        "is_optional": false
+      },
+      {
+        "name": "Diente de ajo",
+        "quantity": 1,
+        "unit": "unidad",
+        "category": "Condimentos",
+        "is_optional": false
+      },
+      {
+        "name": "Sal y pimienta",
+        "quantity": 1,
+        "unit": "pizca",
+        "category": "Condimentos",
+        "is_optional": false
+      },
+      {
+        "name": "Perejil fresco",
+        "quantity": 1,
+        "unit": "cdita",
+        "category": "Condimentos",
+        "is_optional": true
+      }
+    ],
+    "instructions": [
+      "Corta la pechuga de pollo en cubos medianos o tiras para agilizar la cocción.",
+      "Pica finamente el diente de ajo.",
+      "En una sartén a fuego medio, calienta la cucharadita de aceite de oliva y añade el pollo. Cocina por unos 4-5 minutos hasta que empiece a dorarse.",
+      "Agrega los champiñones rebanados y el ajo picado a la sartén.",
+      "Saltea todo junto durante 5-6 minutos más, o hasta que los champiñones estén tiernos y el pollo completamente cocido.",
+      "Sazona con una pizca de sal, pimienta y decora con perejil fresco si lo deseas antes de servir."
+    ],
+    "nutritional_summary": {
+      "calories": 245,
+      "protein_g": 28,
+      "fat_g": 8,
+      "carbs_g": 4
+    }
+  }
+]

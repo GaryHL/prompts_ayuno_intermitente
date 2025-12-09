@@ -1,0 +1,10 @@
+# Colección: PROGRESSMETRICS
+# Propósito: Almacenar logs diarios de métricas para generar gráficos.
+
+ProgressMetric:
+  metric_id: string
+  user_id: string
+  date: timestamp # La fecha en que se registró la métrica
+  weight_kg: number # Log diario de peso
+  adherence_score: number # Ej: Porcentaje de comidas completadas en el plan activo
+  fasting_streak: number # Racha actual

@@ -1,0 +1,30 @@
+# Colección: RECIPES
+Recipe:
+  recipe_id: string
+  title: string
+  description: string
+  preparation_time_mins: number
+  servings: number
+  core_tags:
+    array<string>
+    # Ej: "romper_ayuno", "plato_fuerte, snack, ultima_comida"
+  tags:
+    array<string>
+    # Ej: "alto_en_proteina", "vegano", "etc"
+  expert_comment: string
+  image_url: string
+  ingredients: array<Ingredient>
+  instructions: array<string> # Pasos de la receta, Ej: ["Paso 1: Calentar...", "Paso 2: Mezclar..."]
+  nutritional_summary: object # Datos para el MVP (simplificado)
+  calories: number # Estimado total (no API externa en MVP)
+  protein_g: number # Estimado total
+  fat_g: number # Estimado total
+  carbs_g: number # Estimado total
+
+# Sub-Esquema: INGREDIENT
+Ingredient:
+  name: string
+  quantity: number
+  unit: string
+  category: string
+  is_optional: boolean

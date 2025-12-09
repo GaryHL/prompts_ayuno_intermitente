@@ -1,0 +1,28 @@
+# Colección: SHOPPINGLISTS
+# Propósito: Almacena la lista final generada a partir del MealPlan ACTIVO.
+
+ShoppingList:
+  list_id: string
+  user_id: string # Enlace al perfil de usuario
+  plan_id: string # ID del MealPlan activo que generó esta lista
+  date_generated: timestamp # Fecha en que se creó la lista
+  is_current: boolean # Indica si es la lista que corresponde al plan activo
+
+  # La lista de ítems organizada para el supermercado
+  categories: array<Category>
+
+# Sub-Esquema: CATEGORY
+# Agrupa los ítems para la organización en el supermercado
+
+Category:
+  name: string # Ej: "Proteínas", "Verduras", "Lácteos"
+  items: array<ShoppingItem>
+
+# Sub-Esquema: SHOPPINGITEM
+# Ítem de la lista consolidado de todos los días del plan
+
+ShoppingItem:
+  name: string # Nombre del ingrediente (Ej: "Pechuga de Pollo")
+  total_quantity: number # Suma de todas las cantidades del ingrediente en el plan
+  unit: string # Unidad consolidada (Ej: "gramos")
+  is_purchased: boolean # Para que el usuario pueda tachar items

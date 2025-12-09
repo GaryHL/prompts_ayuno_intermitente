@@ -1,0 +1,13 @@
+# Colección: FASTINGSESSIONS
+# Propósito: Almacena cada sesión de ayuno individual.
+
+FastingSession:
+  session_id: string # ID único de la sesión
+  user_id: string # CRÍTICO: Enlace al perfil de usuario
+  start_time: timestamp # Momento en que el usuario inicia el Timer
+  end_time: timestamp # Momento en que el usuario finaliza (completa o aborta)
+  duration_mins: number # Duración total calculada de la sesión
+  status: string # Ej: "completed", "aborted", "manual"
+  goal_hours: number # La meta de ayuno establecida por el usuario para esa sesión (Ej: 16)
+  streaks_updated: boolean # CRÍTICO: Indica si el backend actualizó la racha del usuario después de esta sesión
+  notes: string # (Opcional) Nota del usuario

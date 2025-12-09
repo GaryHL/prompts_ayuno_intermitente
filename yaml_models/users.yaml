@@ -1,0 +1,36 @@
+# Colección: USERS
+# Propósito: Almacena el perfil del usuario, metas, y estado de la cuenta.
+
+User:
+  user_id: string # ID de Firebase Auth
+  email: string
+  date_joined: timestamp
+
+  # --- DATOS DEL LLM / COACH --- objetct
+  profile:
+    name: string # Para personalización ("Hola [Nombre]")
+    height_cm: number # Estatura en cm
+    weight_kg: number # Peso actual en kg
+    goal: string # CRÍTICO: El objetivo principal del usuario (Ej: "Perder Peso", "Ganar Masa Muscular", "Mantenimiento")
+    activity_level: string # Ej: "Sedentario", "Moderado", "Activo"
+    dietary_preferences: array<string> # Ej: "Vegano", "Keto", "Mediterráneo"
+    allergies: array<string> # Para el filtrado de recetas y planes (Ej: "Nueces", "Gluten")
+    fasting_style: string # Ej: "16/8", "18/6", "OMAD" (Para el timer predeterminado)
+
+  # --- DATOS DE LA SUSCRIPCIÓN --- object
+  subscription:
+    status: string # Ej: "activo", "trial", "inactivo"
+    plan_name: string # Ej: "Mensual Pro", "Trimestral"
+    start_date: timestamp
+    end_date: timestamp
+
+  # --- DATOS DE LA APP (HISTORIAL) ---
+  fasting_history: array<FastingSession> # Historial de ayunos completados/abortados
+
+# Sub-Esquema: FASTINGSESSION
+FastingSession:
+  start_time: timestamp
+  end_time: timestamp
+  duration_mins: number
+  status: string # Ej: "completed", "aborted"
+  note: string # (Opcional) Nota del usuario sobre el ayuno

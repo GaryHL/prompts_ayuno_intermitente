@@ -1,0 +1,23 @@
+# Colección: MEALPLANS
+# Propósito: Almacena los planes generados por el Coach LLM para cada usuario.
+
+MealPlan:
+  plan_id: string
+  user_id: string # Enlace al perfil de usuario
+  plan_name: string # Ej: "Keto Semanal", "Plan de Viaje"
+  date_created: timestamp # Fecha de generación
+  is_active: boolean # CRÍTICO: Solo un plan debe estar activo a la vez
+
+  # Estructura del plan de 7 días (Día 1, Día 2, etc.)
+  plan_days: array<PlanDay>
+
+# Sub-Esquema: PLANDAY
+# Representa un día de planificación (Día 1 a Día 7)
+
+PlanDay:
+  # Las comidas se mapean a los 'core_tags' de las Recetas
+  meals:
+    romper_ayuno: string # Almacena el recipe_id de la receta
+    plato_fuerte: string # Almacena el recipe_id de la receta
+    snack: string # Almacena el recipe_id de la receta
+    ultima_comida: string # Almacena el recipe_id de la receta
